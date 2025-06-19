@@ -26,7 +26,7 @@ def run_timer(minutes, update_func, done_callback):
     seconds = int(float(minutes) * 60)
     while seconds > 0:
         mins, secs = divmod(seconds, 60)
-        update_func(f"{mins:02d}:{secs:02d}")
+        update_func(text=f"{mins:02d}:{secs:02d}")
         time.sleep(1)
         seconds -= 1
     done_callback()
