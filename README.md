@@ -110,3 +110,10 @@ python focustime_gui.py
 2025-06-20 15:10:00,기말고사 공부,0.1
 2025-06-20 15:11:00,기말고사 공부,0.1
 ```
+
+---
+
+## 라이선스 (License)
+
+이 프로젝트는 MIT License 하에 배포됩니다.  
+This project is licensed under the MIT License.
